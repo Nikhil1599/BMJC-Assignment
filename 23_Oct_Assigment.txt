@@ -1,0 +1,110 @@
+1. List the operators in Java?
+Ans: There are multiple types of operators
+
+a) Arithmetic Operators:
+They are used to perform simple arithmetic operations on primitive data types. 
+
+* : Multiplication
+/ : Division
+% : Modulo
++ : Addition
+– : Subtraction
+
+b) Unary Operators:
+Unary operators need only one operand. They are used to increment, decrement, or negate a value. 
+– : Unary minus, used for negating the values.
++ : Unary plus indicates the positive value
+++ : Increment operator, used for incrementing the value by 1. There are two varieties of increment operators. 
+– –  : Decrement operator, used for decrementing the value by 1. There are two varieties of decrement operators. 
+! : Logical not operator, used for inverting a boolean value.
+
+c) Assignment Operator:
+'=' Any variable can be assigned a value using the assignment operator. It has right-to-left associativity, which means that the value given on the right-hand side of the operator is assigned to the variable on the left, and hence the right-hand side value must be declared before use or be a constant. 
+
+d) Relational Operators: 
+Some of the relational operators are- 
+
+==, Equal to returns true if the left-hand side is equal to the right-hand side.
+!=, Not Equal to returns true if the left-hand side is not equal to the right-hand side.
+<, less than: returns true if the left-hand side is less than the right-hand side.
+<=, less than or equal to returns true if the left-hand side is less than or equal to the right-hand side.
+>, Greater than: returns true if the left-hand side is greater than the right-hand side.
+>=, Greater than or equal to returns true if the left-hand side is greater than or equal to the right-hand side.
+
+e) Logical Operators:
+&&, Logical AND: returns true when both conditions are true.
+||, Logical OR: returns true if at least one condition is true.
+!, Logical NOT: returns true when a condition is false and vice-versa
+
+f) Ternary Operator:
+The ternary operator is a shorthand version of the if-else statement. It has three operands and hence the name Ternary.
+condition ? if true : if false
+
+g) Bitwise Operators:
+These operators are used to perform the manipulation of individual bits of a number. They can be used with any of the integer types. They are used when performing update and query operations of the Binary indexed trees. 
+
+&, Bitwise AND operator: returns bit by bit AND of input values.
+|, Bitwise OR operator: returns bit by bit OR of input values.
+^, Bitwise XOR operator: returns bit-by-bit XOR of input values.
+~, Bitwise Complement Operator: This is a unary operator which returns the one’s complement representation of the input value, i.e., with all bits inverted.
+
+h) Shift Operators
+<<, Left shift operator: shifts the bits of the number to the left and fills 0 on voids left as a result. Similar effect as multiplying the number with some power of two.
+>>, Signed Right shift operator: shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit depends on the sign of the initial number. Similar effect to dividing the number with some power of two.
+>>>, Unsigned Right shift operator: shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit is set to 0.
+
+
+2. Explain about increment and decrement operators and give an examples
+Ans: The increment and decrement operators in Java are represented by the operators (++) and (--). The increment (++) and decrement (--) operators simply increase and decrease the value by one.
+there are two types that is post and pre
+a)post increment (x++) and pre increment (++x)
+b)post decrement (x--) and pre decrement (--x)
+Ex. 
+int x = 10
+System.out.println(x++) //10 will print
+System.out.println(++x) //12 will print
+System.out.println(x--) //12 will print
+System.out.println(--x) //10 will print
+
+3. What are the conditional operators in java?
+Ans: Conditional operators in Java check the condition and decide on the desired result based on both criteria. In this part, we will look at the Java conditional operator.
+a) Conditional AND
+b) Conditional OR
+c) Ternary Operator
+
+4. What are the types of operators based on the number of operands?
+Ans: 
+a) Unary Operators – Require only one operand 
+b) Binary Operators – Require two operands  
+c) Ternary Operators – Require three operands
+
+5. what are the conditional statements and use of conditional statements in Java?
+Ans: In Java, conditional statements are used to make judgments based on specific conditions. The If-Else statement,IF-Else if - Else, the Switch statement, and the Ternary Operator are the most popular conditional statements in Java. These statements let the program to run distinct blocks of code in response to certain conditions.
+
+6. What is the syntax of if else statement?
+Ans: 
+if (condition) {
+  // execute if the condition is true
+} else {
+  // execute if the condition is false
+}
+
+7. What are the three types of iterating statements in java? 
+Ans: Iterative statements can also be referred to as looping statements or repeating statements. The following iterative statements are available in Java.
+there are three types:
+a) for loop
+b) while loop
+c) do while loop
+
+8. What do you mean by an array?
+Ans: An array is a group of similar elements or data items of the same type collected at contiguous memory locations.
+
+9. How to create an array?
+Ans: 
+a) 1-D Array
+type[] variable-name = {};
+b) 2-D Array
+type[][] variable-name = {{}} ;
+
+10. State the difference between string buffer and string builder in Java?
+Ans: String is an immutable class, but StringBuffer and StringBuilder are mutable. StringBuilder is not thread-safe or synchronized, although StringBuffer is. That is why StringBuilder outperforms StringBuffer.
