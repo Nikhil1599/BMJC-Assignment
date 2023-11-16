@@ -1,0 +1,56 @@
+1. What is an exception in Java?
+Ans: An exception is a situation that arises while a program is being executed that interferes with the instructions' regular flow. When a method encounters an error, it generates an object and sends it to the runtime system.
+
+2. What are the types of exception?
+Ans: An exception in Java is a program execution event that interferes with the regular flow of the program's instructions. Exceptions are bugs or errors that we don't intend to occur and that prevent our program's code from running normally. This section will concentrate on the various Java exception types and how they differ from one another.
+Exceptions can be categorized into two ways:
+
+A) Built-in Exceptions
+ - Checked Exception
+ - Unchecked Exception
+B) User-Defined Exceptions
+
+
+3. How are exceptions handled in java?
+Ans: The simplest way to handle exceptions is to use the try-catch pattern. The try block should include the code you want to run, and one or more catch blocks should handle any Java exceptions the code raises. Any sort of thrown Java exception will be caught by this function. The easiest method for managing exceptions is this one.
+
+4. What are the important methods defined in java java's Exception Class?
+Ans: There are no special methods provided by Exception or any of its subclasses; instead, all of the methods are defined in the Throwable base class.
+
+Message get String():– By using the constructor of the exception, the message may be supplied, and this function returns a String of Throwable.
+
+GetLocalizedMessage() as a string: This function is given so that subclasses can override it and send the calling program a message that is specific to the current locale. The getMessage() method of the Throwable class implementation of this method is used to return the exception message.
+
+Coordinated Throwable getCause(): This function returns null if the cause of the exception is unknown or the cause of the exception.
+
+String toString(): This function returns Throwable information in String format; it includes the localized message and the name of the Throwable class.
+
+5. What are runtime exceptions in Java?
+Ans: The superclass of all classes that throw exceptions when the Java Virtual Machine (VM) is operating normally is called RuntimeException. Unchecked exceptions include the RuntimeException and its subclasses. The most frequent exceptions include ClassCastException, NullPointerException, InvalidArgumentException, and ArrayIndexOutOfBoundsException, among others.\
+
+6. What is the difference between the throw and throws keywords in Java?
+Ans: To explicitly throw an exception, use the throw keyword. Only one exception can be made at once. Multiple exceptions can be declared with the throws keyword, separated by commas. If an exception matches one of the defined ones, it is automatically thrown.
+
+7. What is the difference between error and exception in Java?
+Ans: Errors and exceptions are both subclasses of the throwable class. The error suggests an issue that is primarily brought on by insufficient system resources. However, exceptions happen during the compile and runtime phases. Let's examine some key distinctions between mistakes and exceptions.
+
+8. Explain the hierarchy of Exceptions in Java?
+Ans: The foundation class of the hierarchy is called Throwable, and all exception and error kinds are subclasses of this class. Exception is in charge of one branch. The extraordinary circumstances that user applications should detect are handled by this class. One example of such an exception is NullPointerException.
+
+9. Define Packages in java?
+Ans: In Java, a package is a grouping of related classes and interfaces. The pack (group) of related types, which includes classes, sub-packages, enumeration, annotations, and interfaces that manage name space, is defined by the name alone. Each class belongs to a specific package. In order to utilize an already-existing class, you must add the package to the Java program.
+
+10. What are Access modifiers in Java?
+Ans: Keywords known as access modifiers can be used to restrict which fields, methods, and constructors in a class are visible. Java has four access modifiers: protected, private, default, and public.
+
+a) Private: We can access the private modifier only within the same class and not from outside the class.
+
+b) Default: We can access the default modifier only within the same package and not from outside the package. And also, if we do not specify any access modifier it will automatically consider it as default.
+
+c) Protected: We can access the protected modifier within the same package and also from outside the package with the help of the child class. If we do not make the child class, we cannot access it from outside the package. So inheritance is a must for accessing it from outside the package.
+
+d) Public: We can access the public modifier from anywhere. We can access public modifiers from within the class as well as from outside the class and also within the package and outside the package.
+
+11. What are non-access modifiers in Java?
+Ans: The JVM receives information about a class, method, or variable's properties from non-access modifiers. Java contains seven different forms of non-access modifiers. They are final and static.
+
