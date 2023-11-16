@@ -1,0 +1,33 @@
+1. What is the difference between JVM, JRE and JDK?
+Ans: 
+JDK: The Java Development Kit, or JDK, is a complete software development environment used for creating Java applications. It includes the Java Runtime Environment (JRE), Java compiler (javac), Java debugger (jdb), Java Virtual Machine (JVM), and various tools and libraries necessary for Java development.
+
+JRE: The Java Runtime Environment, or JRE, is the environment in which Java applications run. It consists of the Java Virtual Machine (JVM) and a set of standard Java class libraries, which provide the basic functionalities needed for running Java programs.
+
+JVM: The Java Virtual Machine, or JVM, is the core component of the JRE that interprets and executes the compiled Java bytecode. JVM is platform-independent, allowing Java applications to run on any operating system or hardware that supports a JVM implementation. This “write once, run anywhere” capability is one of the key features of Java.
+
+2. How is Java programming language machine and platform independent?
+Ans: Java platform independence means that Java compiled code (byte code) can execute on any operating system. A program is written in a language that is readable by humans. It may contain words, sentences, or other content that the machine does not understand. To be understood by the computer, the source code must be written in a machine-readable language, often a machine-level language. As a result, a compiler is required. The compiler turns the high-level language (human language) into a machine-readable format. 
+
+3. Explain how java programs are executed by the JVM?
+Ans: The Java compiler generates bytecode from the source code, which is then executed by the Java Virtual Machine (JVM). The bytecode is loaded into the JVM, which interprets it and executes the program.
+
+4. What is the use of var agrs?
+Ans: Variable parameters (Var args) is a method in Java that accepts a variable number of parameters. Variable parameters in Java makes it easier to write methods that take a variable number of parameters.
+
+5. What are the types of variables in java?
+Ans: There are three types of variables in java: local, instance and static.
+Local Variable: A variable defined within a block or method or constructor is called a local variable. 
+Instance Variable: Instance variables are non-static variables and are declared in a class outside of any method, constructor, or block. 
+Static Variable: Static variables have the property of preserving their value even after they are out of their scope! Hence, a static variable preserves its previous value in its previous scope and is not initialized again in the new scope. 
+
+6. How many types of memory areas are allocated by JVM?
+Ans: The memory in the JVM is divided into 5 different parts: 
+i. Class(Method) Area
+ii. Heap
+iii. Stack
+iv. Program Counter Register
+v. Native Method Stack
+
+7. What is Just-in-Time Compiler?
+Ans: The JIT or Just-In-Time compiler is a component of the JRE (Java Runtime Environment) that is in charge of optimizing the performance of Java-based applications during runtime. The compiler is an important factor in determining the performance of an application for both the end-user and the application developer.
